@@ -11,6 +11,8 @@
 - display : grid
 - grid-template-columns 
 - grid-template-rows
+- grid-template-areas
+- grid-area
 - grid-auto-rows
 - grid-gap
 - grid-column-gap
