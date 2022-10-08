@@ -31,3 +31,14 @@
 
 - grid-column : 1 / 4
 - grid-row : 2 / 4
+
+### Flex
+
+
+- display : flex
+- flex-direction : (row , column , row-reverse , column-reverse)
+- flex-wrap : (nowrap , wrap ,wrap-reverse)
+- flex-flow : (column nowrap)
+- justify-content : (flext-start , flex-end , center , space-around , space-even , space-between) <=수평축
+- align-itmes : (center ,baseline  ) <= 수직축
+- align-content : (flext-start , flex-end , center , space-around , space-even , space-between) <= 수직축
