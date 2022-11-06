@@ -128,3 +128,61 @@ button:focus {
   }
 }
 ```
+
+#### 유튜브 제목 더보기 토클링 텍스트
+
+- javscript
+
+```javascript
+const moreBtn = document.querySelector(".info .metadata .moreBtn");
+const title = document.querySelector(".info .metadata .title");
+
+moreBtn.addEventListener("click", () => {
+  moreBtn.classList.toggle("clicked");
+  title.classList.toggle("clamp");
+});
+```
+
+- css
+
+```css
+.info .metadata .titleAndButton .title {
+  font-size: var(--font-medium);
+  margin-right: var(--padding);
+}
+
+.info .metadata .titleAndButton .title.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+```
+
+#### 유튜브 제목 더보기 토클링 버튼
+
+- javascript
+
+```javascript
+const moreBtn = document.querySelector(".info .metadata .moreBtn");
+const title = document.querySelector(".info .metadata .title");
+
+moreBtn.addEventListener("click", () => {
+  moreBtn.classList.toggle("clicked");
+  title.classList.toggle("clamp");
+});
+
+```
+
+- css
+
+```css
+.info .metadata .titleAndButton .moreBtn {
+  height: 100%;
+  transition: transform 300ms ease-in-out;
+}
+
+.info .metadata .titleAndButton .moreBtn.clicked {
+  transform: rotate(180deg);
+}
+```
