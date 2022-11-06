@@ -46,3 +46,33 @@
 
 ## youtube clone
 
+
+### 비디오 플레이어
+
+#### 화면 고정
+- position: sticky;
+- top: 0;
+
+#### 버튼 속성 없애기
+
+```css
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+```
+
+#### CSS line-clamp (화면에 텍스트 줄 표시 설정)
+
+```css
+.info .metadata .titleAndButton .title {
+  font-size: var(--font-medium);
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+```
