@@ -2,14 +2,13 @@
 
 ## CSS
 
-
-### Grid
-
+<details>
+ <summary>Grid</summary>
 
 ![img.png](grid_exam/img.png)
 
 - display : grid
-- grid-template-columns 
+- grid-template-columns
 - grid-template-rows
 - grid-template-areas
 - grid-area
@@ -18,7 +17,6 @@
 - grid-column-gap
 - grid-row-gap
 
-
 ![img.png](img.png)
 
 - grid-column-start
@@ -26,30 +24,46 @@
 - gird-row-start
 - grid-row-end
 
-
-축약 
+축약
 
 - grid-column : 1 / 4
 - grid-row : 2 / 4
 
-### Flex
+</details>
 
+<br/>
+<br/>
+
+<details>
+
+ <summary>Flex</summary>
 
 - display : flex
 - flex-direction : (row , column , row-reverse , column-reverse)
 - flex-wrap : (nowrap , wrap ,wrap-reverse)
 - flex-flow : (column nowrap)
 - justify-content : (flext-start , flex-end , center , space-around , space-even , space-between) <=수평축
-- align-itmes : (center ,baseline  ) <= 수직축
+- align-itmes : (center ,baseline ) <= 수직축
 - align-content : (flext-start , flex-end , center , space-around , space-even , space-between) <= 수직축
+ 
+ 
+ </details>
 
 
-## youtube clone
+<br/>
+<br/>
+
+<details>
+
+<summary> youtube clone </summary>
+
+
 
 
 ### 비디오 플레이어
 
 #### 화면 고정
+
 - position: sticky;
 - top: 0;
 
@@ -171,7 +185,6 @@ moreBtn.addEventListener("click", () => {
   moreBtn.classList.toggle("clicked");
   title.classList.toggle("clamp");
 });
-
 ```
 
 - css
@@ -186,3 +199,8 @@ moreBtn.addEventListener("click", () => {
   transform: rotate(180deg);
 }
 ```
+
+  </details>
+
+
+  
